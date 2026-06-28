@@ -10,6 +10,6 @@ class PluginRegistry:
 
    def get_plugin(self) -> list[BaseExtractor]:
       return self._plugin
-   def clear(self):  
+   def clear(self):   
       self._plugin.clear()
  
