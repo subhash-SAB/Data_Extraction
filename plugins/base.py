@@ -10,6 +10,9 @@ class BaseExtractor(ABC):
     Every extractor (Amazon, GitHub, Wikipedia, etc.)
     must inherit from this class.
     """
+    def __init__(self, fetcher, parser):
+        self.fetcher = fetcher
+        self.parser = parser
 
     @abstractmethod
     def name(self) -> str:

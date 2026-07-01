@@ -1,7 +1,7 @@
 # core/router.py
 
 from plugins.base import BaseExtractor
-from registry import PluginRegistry
+from CORE.registry import PluginRegistry
 
 
 class Router:

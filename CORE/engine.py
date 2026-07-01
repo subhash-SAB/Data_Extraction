@@ -1,4 +1,4 @@
-from router import Router
+from CORE.router import Router
 
 class ExtractionEngine:
     
